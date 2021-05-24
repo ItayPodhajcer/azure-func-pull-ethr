@@ -83,7 +83,8 @@
       "label": "tf-apply",
       "command": "terraform",
       "args": [
-        "apply"
+        "apply",
+        "-auto-approve"
       ],
       "type": "process",
       "dependsOrder": "sequence",
